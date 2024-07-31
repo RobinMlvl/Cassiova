@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/Cassiova/static/css/main.7e13e641.css",
-    "main.js": "/Cassiova/static/js/main.b183143c.js",
+    "main.js": "/Cassiova/static/js/main.a7616eb5.js",
     "static/js/453.9caf8ac3.chunk.js": "/Cassiova/static/js/453.9caf8ac3.chunk.js",
+    "static/media/etoiledemer.gif": "/Cassiova/static/media/etoiledemer.d84f993baa58bfe6e08b.gif",
+    "static/media/licorne.gif": "/Cassiova/static/media/licorne.5956763a44bb58873a3f.gif",
+    "static/media/giphy-star.gif": "/Cassiova/static/media/giphy-star.4cfe0b994241e9a6ea4c.gif",
     "index.html": "/Cassiova/index.html",
     "main.7e13e641.css.map": "/Cassiova/static/css/main.7e13e641.css.map",
-    "main.b183143c.js.map": "/Cassiova/static/js/main.b183143c.js.map",
+    "main.a7616eb5.js.map": "/Cassiova/static/js/main.a7616eb5.js.map",
     "453.9caf8ac3.chunk.js.map": "/Cassiova/static/js/453.9caf8ac3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e13e641.css",
-    "static/js/main.b183143c.js"
+    "static/js/main.a7616eb5.js"
   ]
 }
