@@ -69,9 +69,9 @@ export const Header76 = (props: Header76Props) => {
 };
 
 export const Header76Defaults: Header76Props = {
-  heading: "Boost Your Revenue with Cassiova",
+  heading: "Boost Your Revenue with CassioVa",
   description:
-    "RateNest is a powerful SaaS platform that helps local businesses improve their reviews and ranking on Google Maps. Increase your revenue and attract more customers today.",
+    "CassioVa is a powerful SaaS platform that helps local businesses improve their reviews and ranking on Google Maps. Increase your revenue and attract more customers today.",
   buttons: [{ title: "Try now" }],
   images: [
     {
