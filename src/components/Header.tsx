@@ -1,6 +1,10 @@
 import { Button } from "@relume_io/relume-ui";
 import type { ButtonProps } from "@relume_io/relume-ui";
 import React from "react";
+import gif from "../assets/giphy-star.gif"
+import licorne from "../assets/licorne.gif"
+import reward from "../assets/etoiledemer.gif"
+import etoiledemer from "../assets/etoiledemer.gif"
 
 type ImageProps = {
   src: string;
@@ -75,27 +79,35 @@ export const Header76Defaults: Header76Props = {
   buttons: [{ title: "Try now" }],
   images: [
     {
-      src: "https://relume-assets.s3.amazonaws.com/placeholder-image.svg",
+      src: gif,
       alt: "Placeholder image 1",
     },
     {
-      src: "https://relume-assets.s3.amazonaws.com/placeholder-image.svg",
+      src: licorne,
       alt: "Placeholder image 2",
     },
     {
-      src: "https://relume-assets.s3.amazonaws.com/placeholder-image.svg",
+      src: etoiledemer,
       alt: "Placeholder image 3",
     },
     {
-      src: "https://relume-assets.s3.amazonaws.com/placeholder-image.svg",
+      src: reward,
       alt: "Placeholder image 4",
     },
     {
-      src: "https://relume-assets.s3.amazonaws.com/placeholder-image.svg",
+      src: licorne,
       alt: "Placeholder image 5",
     },
     {
-      src: "https://relume-assets.s3.amazonaws.com/placeholder-image.svg",
+      src: reward,
+      alt: "Placeholder image 6",
+    },
+    {
+      src: reward,
+      alt: "Placeholder image 6",
+    },
+    {
+      src: gif,
       alt: "Placeholder image 6",
     },
   ],
