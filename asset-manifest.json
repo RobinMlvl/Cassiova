@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/Cassiova/static/css/main.7e13e641.css",
-    "main.js": "/Cassiova/static/js/main.a7616eb5.js",
+    "main.css": "/Cassiova/static/css/main.44012bdc.css",
+    "main.js": "/Cassiova/static/js/main.2c9769cd.js",
     "static/js/453.9caf8ac3.chunk.js": "/Cassiova/static/js/453.9caf8ac3.chunk.js",
     "static/media/etoiledemer.gif": "/Cassiova/static/media/etoiledemer.d84f993baa58bfe6e08b.gif",
     "static/media/licorne.gif": "/Cassiova/static/media/licorne.5956763a44bb58873a3f.gif",
     "static/media/giphy-star.gif": "/Cassiova/static/media/giphy-star.4cfe0b994241e9a6ea4c.gif",
+    "static/media/number-3 (1).png": "/Cassiova/static/media/number-3 (1).0d0d480a2686a2cc4f47.png",
+    "static/media/number-2 (1).png": "/Cassiova/static/media/number-2 (1).34cd3f6fd321dd66f7a3.png",
+    "static/media/number-four.png": "/Cassiova/static/media/number-four.07faf83b28f32b955cf6.png",
+    "static/media/number-one (2).png": "/Cassiova/static/media/number-one (2).19938b7cc16fd32fcbee.png",
     "index.html": "/Cassiova/index.html",
-    "main.7e13e641.css.map": "/Cassiova/static/css/main.7e13e641.css.map",
-    "main.a7616eb5.js.map": "/Cassiova/static/js/main.a7616eb5.js.map",
+    "main.44012bdc.css.map": "/Cassiova/static/css/main.44012bdc.css.map",
+    "main.2c9769cd.js.map": "/Cassiova/static/js/main.2c9769cd.js.map",
     "453.9caf8ac3.chunk.js.map": "/Cassiova/static/js/453.9caf8ac3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e13e641.css",
-    "static/js/main.a7616eb5.js"
+    "static/css/main.44012bdc.css",
+    "static/js/main.2c9769cd.js"
   ]
 }
