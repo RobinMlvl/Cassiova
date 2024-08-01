@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, useMediaQuery } from "@relume_io/relume-ui";
+import { useMediaQuery } from "@relume_io/relume-ui";
 import type { ButtonProps } from "@relume_io/relume-ui";
 import { MotionValue, useMotionValue, motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
@@ -124,10 +124,10 @@ export const Layout408Defaults: Layout408Props = {
   description: "Get actionable insights and analytics for your business",
   featureSections: [
     {
-      tagline: "Analyze",
+      tagline: "",
       heading: "Understand Your Reviews and Ratings",
       description:
-        "Our KPI Dashboard provides a comprehensive overview of your business performance, including the total number of reviews, percentage of good vs. bad reviews, and weekly comparison charts. Gain valuable insights to improve your online reputation.",
+        "Our KPI Dashboard provides a simple and comprehensive overview of your business performance, including weekly comparison charts. Gain valuable insights to improve your online reputation.",
       buttons: [
         { title: "Button", variant: "secondary" },
         {
@@ -143,10 +143,10 @@ export const Layout408Defaults: Layout408Props = {
       },
     },
     {
-      tagline: "Optimize",
-      heading: "Improve Your Business Ranking on Google",
+      tagline: "",
+      heading: "The Easiest Tool on the Market—Guaranteed to Simplify Your Life",
       description:
-        "Our AI-generated score reflects the optimization level of your Google Business profile. Receive specific recommendations for improvement to increase your visibility and attract more customers.",
+        "Although advanced technologies have been used to create our platform, no technological skills are required to use it. Simple explanations will guide you step by step to improve your online presence.",
       buttons: [
         { title: "Button", variant: "secondary" },
         {
@@ -159,25 +159,6 @@ export const Layout408Defaults: Layout408Props = {
       image: {
         src: "https://relume-assets.s3.amazonaws.com/placeholder-image.svg",
         alt: "Placeholder image 2",
-      },
-    },
-    {
-      tagline: "AI",
-      heading: "Unlock Insights from AI Review Analysis",
-      description:
-        "Our AI analyzes bad reviews to provide you with a synthesized summary. Discover recommendations to enhance your business and address customer concerns proactively.",
-      buttons: [
-        { title: "Button", variant: "secondary" },
-        {
-          title: "Button",
-          variant: "link",
-          size: "link",
-          iconRight: <RxChevronRight className="size-4" />,
-        },
-      ],
-      image: {
-        src: "https://relume-assets.s3.amazonaws.com/placeholder-image.svg",
-        alt: "Placeholder image 3",
       },
     },
   ],

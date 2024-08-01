@@ -75,8 +75,8 @@ export const Header76 = (props: Header76Props) => {
 export const Header76Defaults: Header76Props = {
   heading: "Boost Your Revenue with CassioVa",
   description:
-    "CassioVa is a powerful SaaS platform that helps local businesses improve their reviews and ranking on Google Maps. Increase your revenue and attract more customers today.",
-  buttons: [{ title: "Try now" }],
+    "Cassiova is an AI- powered platform that helps worldwide businesses improve their ratings and ranking online on platforms such as Google Maps. Increasing your online presence will attract more customers and help you generate more revenue.",
+  buttons: [{ title: "Try now for Free" }],
   images: [
     {
       src: gif,
