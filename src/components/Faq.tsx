@@ -32,7 +32,7 @@ import React from "react";
       ...props,
     } as Props;
     return (
-      <section className="px-[5%] py-16 md:py-24 lg:py-28">
+      <section className="px-[5%] py-16 md:py-24 lg:py-28" id="faq">
         <div className="container mx-auto max-w-lg">
           <div className="mb-12 text-center md:mb-18 lg:mb-20">
             <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">{heading}</h2>
@@ -77,29 +77,39 @@ import React from "react";
       "Find answers to commonly asked questions about our platform and services.",
     questions: [
       {
-        title: "How does it work?",
+        title: "How do I get started?",
         answer:
-          "Our platform analyzes your Google Business profile and provides actionable insights to improve your ranking. We also offer a customizable review page template and AI-generated review analysis to help you make business improvements.",
+          "Simply subscribe through our website by entering the requested information. If you have questions about our product, you can watch our video that explains how it works and the steps for implementation in your business environment.",
+      },
+      {
+        title: "How can I encourage my customers to give feedback using your solution?",
+        answer:
+          "We have several ways to collect feedback. The simplest method is to use your QR code and place it in a strategic location where your customers can easily access it. You can customize it to make it appealing to your clients, for example, by including a persuasive message. It is also possible to integrate our review system directly into your email campaigns or website. Additionally, we offer tools to encourage your customers to leave feedback. In the near future, you will be able to opt for the premium package to access our rewards system or prize draw system.",
       },
       {
         title: "Is it user-friendly?",
         answer:
-          "Yes, our platform is designed to be intuitive and easy to navigate. We provide a comprehensive dashboard with key performance indicators and a customer reward system to incentivize positive reviews.",
+          "Yes, we've put a lot of effort into improving the customer experience and making the platform as intuitive as possible. Our platform has been developed in such a way that our tools require as few clicks as possible to perform actions.",
       },
       {
-        title: "Can I track my progress?",
+        title: "How can I test the product?",
         answer:
-          "Absolutely! Our platform offers a KPI dashboard that displays important metrics such as the total number of reviews, percentage of good vs. bad reviews, and weekly comparison charts.",
+          "We offer a video demonstration of the platform. In addition, an explanatory article, including screenshots, is available to guide users step by step. On request, a limited-time free trial can be included. The aim of the trial is to gather your feedback and check whether the quality of the platform meets your expectations. The trial allows you to try out the platform for a limited amount of time, so you can decide if you want to do business with us.",
       },
       {
-        title: "How do I get started?",
+        title: "Do I need a credit card to subscribe?",
         answer:
-          "Getting started is easy. Simply sign up for an account, link your Google Business profile, and start utilizing our powerful features to improve your online reputation.",
+          "Yes, a credit card is required to subscribe. You will need to enter this information when choosing your subscription plan.",
       },
       {
-        title: "Still have questions?",
+        title: "What are the expected results?",
         answer:
-          "If you still have questions, feel free to reach out to our team. We're here to help!",
+          "When you have a good rating on Google, it will always place you higher in search results, making you much more visible. Naturally, more people will choose your business because they will feel more confident in it. More customers mean more revenue! Studies show that positive reviews can increase sales by 31%. In a world where consumers increasingly base their decisions on online ratings to build trust, it is crucial to manage them effectively. This is precisely the goal of our tool, which highlights positive reviews online while allowing you to quickly address less favorable ones before they appear online.",
+      },
+      {
+        title: "What can AI do for me?",
+        answer:
+          "We are in an era where artificial intelligence is becoming increasingly advanced and serves as a great aid for businesses to improve their daily operations. We have integrated the best AI tools on the market to analyze less favorable customer feedback and provide recommendations with concrete actions. Our intelligent tool detects recurring issues and identifies trends in all the comments collected from your customers. This constantly generates feedback for decision-making. By following these recommendations and implementing the necessary corrections, you will naturally attract many more positive reviews over time.",
       },
     ],
     footerHeading: "Still have questions?",

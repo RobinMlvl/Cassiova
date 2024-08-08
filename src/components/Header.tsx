@@ -1,10 +1,7 @@
 import { Button } from "@relume_io/relume-ui";
 import type { ButtonProps } from "@relume_io/relume-ui";
 import React from "react";
-import gif from "../assets/giphy-star.gif"
-import licorne from "../assets/licorne.gif"
-import reward from "../assets/etoiledemer.gif"
-import etoiledemer from "../assets/etoiledemer.gif"
+import reviews from "../assets/reviews2.png"
 
 type ImageProps = {
   src: string;
@@ -32,7 +29,7 @@ export const Header76 = (props: Header76Props) => {
         <p className="md:text-md">{description}</p>
         <div className="mt-6 flex gap-x-4 md:mt-8">
           {buttons.map((button, index) => (
-            <Button key={index} {...button}>
+            <Button key={index} {...button} className="bg-yellow-400 text-black">
               {button.title}
             </Button>
           ))}
@@ -73,42 +70,30 @@ export const Header76 = (props: Header76Props) => {
 };
 
 export const Header76Defaults: Header76Props = {
-  heading: "Boost Your Revenue with CassioVa",
+  heading: "Boost Your Revenue with Cassiova",
   description:
     "Cassiova is an AI- powered platform that helps worldwide businesses improve their ratings and ranking online on platforms such as Google Maps. Increasing your online presence will attract more customers and help you generate more revenue.",
-  buttons: [{ title: "Try now for Free" }],
+  buttons: [{ title: "Try now for Free"}],
   images: [
     {
-      src: gif,
+      src: reviews,
       alt: "Placeholder image 1",
     },
     {
-      src: licorne,
-      alt: "Placeholder image 2",
+      src: reviews,
+      alt: "Placeholder image 1",
     },
     {
-      src: etoiledemer,
-      alt: "Placeholder image 3",
+      src: reviews,
+      alt: "Placeholder image 1",
     },
     {
-      src: reward,
-      alt: "Placeholder image 4",
+      src: reviews,
+      alt: "Placeholder image 1",
     },
     {
-      src: licorne,
-      alt: "Placeholder image 5",
-    },
-    {
-      src: reward,
-      alt: "Placeholder image 6",
-    },
-    {
-      src: reward,
-      alt: "Placeholder image 6",
-    },
-    {
-      src: gif,
-      alt: "Placeholder image 6",
+      src: reviews,
+      alt: "Placeholder image 1",
     },
   ],
 };

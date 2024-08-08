@@ -52,9 +52,9 @@ type ImageProps = {
   };
   
   export const Layout27Defaults: Layout27Props = {
-    heading: "Increase Customer Engagement with our Personalized Review Page Feature",
+    heading: "Increase your customer feedback with our Personalized Review Page feature and make it valuable",
     description:
-      "Transform your customer feedback process with our Customized Review Page feature. Easily create a personalized review page template that you can share through direct email, newsletters, or QR codes. This powerful tool not only helps you collect valuable feedback but also boosts your online reputation, driving greater trust and engagement with your brand",
+      "Easily collect customer feedback with our Customized Review Page feature, using a printed QR code or an integrated widget. This powerful tool not only helps you gather valuable feedback but also boosts your online reputation by showcasing the best reviews, driving greater trust and engagement with your brand",
     stats: [
       {
         title: "Up to 75%",

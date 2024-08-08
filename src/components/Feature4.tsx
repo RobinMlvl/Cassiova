@@ -58,7 +58,7 @@ export const Layout408 = (props: Layout408Props) => {
   const scales = calculateScales(featureSections.length, scrollYProgress);
 
   return (
-    <section className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section className="px-[5%] py-16 md:py-24 lg:py-28" id="track">
       <div className="container">
         <div className="container mb-12 max-w-lg text-center md:mb-18 lg:mb-20">
           <p className="mb-3 font-semibold md:mb-4">{tagline}</p>

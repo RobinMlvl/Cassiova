@@ -40,11 +40,11 @@ export const Layout237 = (props: Layout237Props) => {
     buttons = [],
   } = { ...props, ...Layout237Defaults };
   return (
-    <section className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section id="how" className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container flex flex-col items-center">
         <div className="mb-12 text-center md:mb-18 lg:mb-20">
           <div className="w-full max-w-lg">
-            <p className="mb-3 font-semibold md:mb-4">{tagline}</p>
+            <p className="mb-3 font-bold text-xl md:mb-4 text-yellow-400">{tagline}</p>
             <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">{heading}</h2>
             <p className="md:text-md">{description}</p>
           </div>
@@ -72,8 +72,8 @@ export const Layout237 = (props: Layout237Props) => {
 };
 
 export const Layout237Defaults: Layout237Props = {
-  tagline: "How it's work ?",
-  heading: "Increase your ranking on the Web Get instant recommendations to improve your business",
+  tagline: "How does it work ?",
+  heading: "Increase your Google rating by showcasing your best reviews and turning less favorable ones into 5-star ratings",
   description:
     "",
   sections: [
@@ -102,7 +102,7 @@ export const Layout237Defaults: Layout237Props = {
       },
       heading: "",
       description:
-        "Centralize all your reviews, both from the web and those you collect, in one easy-to-use dashboard, giving you a comprehensive overview of customer sentiment",
+        "Centralize all your reviews, both from the web and those you collect, in one easy-to-use smart dashboard,  providing  you a comprehensive overview of trend",
     },
     {
       icon: {
@@ -111,11 +111,11 @@ export const Layout237Defaults: Layout237Props = {
       },
       heading: "",
       description:
-        "With just a few clicks, our advanced AI tools will provide recommendations, empowering you to elevate your online presence and outshine the competition",
+        "Our advanced AI tools will recommend concrete actions for your less favorable reviews to turn them into 5 stars and outshine the competition",
     },
   ],
   buttons: [
-    { title: "TRY NOW FOR FREE", variant: "secondary" },
+    { title: "TRY NOW FOR FREE", variant: "primary", className:"bg-yellow-400 text-black" },
     /* {
       title: "Button",
       variant: "link",

@@ -23,9 +23,9 @@ type Props = {
   };
   
   export const Layout42Defaults: Layout42Props = {
-    heading: "Uncover valuable insights from AI-generated analysis of customer reviews.",
+    heading: "Gain valuable insights with AI-generated analysis of customer reviews and react quickly",
     description:
-      "Thanks to our innovative platform, companies can better understand customer sentiment and make data-driven decisions to improve their products and services",
+      "Thanks to our innovative platform, enterprises can better understand customer sentiment to improve their online rating and ranking. Our intelligent tool detects recurring issues and identifies trends, enabling quick and informed decision-making to promote the best review",
   };
   
   Layout42.displayName = "Layout42";
